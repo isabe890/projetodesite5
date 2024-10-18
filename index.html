@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>TechFlix</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/logo.png" alt="Logo TechFlix" class="header__logo">
+        <nav class="header__nav">
+            <a href="#planos" class="header__link">Planos</a>
+            <a href="#cursos" class="header__link">Cursos</a>
+            <a href="#contato" class="header__link">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Aprenda Tecnologia a Qualquer Hora</h1>
+            <p class="hero__description">Assista cursos de programação, design e dados em qualquer dispositivo.</p>
+            <a href="#planos" class="hero__button">Assinar Agora</a>
+        </div>
+    </section>
+
+    <section id="cursos" class="cursos container">
+        <h2 class="cursos__title">Cursos em Destaque</h2>
+        <div class="cursos__grid">
+            <div class="curso">
+                <img src="img/curso-html.png" alt="Curso HTML5" class="curso__img">
+                <h3 class="curso__name">HTML5 & CSS3</h3>
+            </div>
+            <div class="curso">
+                <img src="img/curso-python.png" alt="Curso Python" class="curso__img">
+                <h3 class="curso__name">Python para Iniciantes</h3>
+            </div>
+            <div class="curso">
+                <img src="img/curso-javascript.png" alt="Curso JavaScript" class="curso__img">
+                <h3 class="curso__name">JavaScript Moderno</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="planos" class="planos">
+        <h2 class="planos__title">Escolha seu Plano</h2>
+        <div class="planos__cards">
+            <div class="plano">
+                <h3 class="plano__name">Mensal</h3>
+                <p class="plano__price">R$ 49,90/mês</p>
+                <a href="#" class="plano__button">Assinar</a>
+            </div>
+            <div class="plano destaque">
+                <h3 class="plano__name">Anual</h3>
+                <p class="plano__price">R$ 499,90/ano</p>
+                <a href="#" class="plano__button">Assinar</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="footer">
+        <p>© 2024 TechFlix. Todos os direitos reservados.</p>
+        <ul class="footer__links">
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
